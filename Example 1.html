@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Example 1</title>
+	<link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+
+	<header>
+	<abbr title="Шапка">Шапка сайта</abbr>
+	</header>
+	
+	<article>
+	
+	<!-- Блок -->
+	<div>
+	<span>Text</span>
+	</div>
+	
+	<!-- Форма -->
+	<form action="" method="post">
+	
+		<label for="Name">Имя</label>
+		<input type="text" name="Name" id ="Name">
+		<label for="Password">Пароль</label>
+		<input type="password" name="Password" id ="Password">
+		
+		<hr/>
+		<textarea placeholder="Example" rows="20" cols ="50"></textarea>
+		<hr/>
+		
+		<select multiple="multiple">
+			<option>------</option>
+			<option>Вариант 1</option>
+			<option>Вариант 2</option>
+			<option>Вариант 3</option>
+			<option>Вариант 4</option>
+		</select>
+		
+		<br/>
+		<input type="color">
+		<input type="submit" value="Submit">
+		<input type="button" value="Button">
+		<br/>
+	</form>
+		<form oninput="result.value=(cm.value/2.54).toFixed(2)">
+			<br/>
+			Введите длину в сантиметрах
+			<input type="number" name ="cm" autofocus>
+			<br/>
+			Длина в дюймах: <output name="result">0</output>
+		</form>
+		
+		<pre><big>H<sub>2</sub>O	4<sup>2</sup></pre></big>
+		<br/>
+		<button>Кнопка все формы</button>
+		
+		<details open=""> 
+		<summary>Показать текст</summary>
+		Скрытый текст
+		<p>Что-то <mark>ВЫДЕЛЕНО</p></mark>
+			<ruby>
+			текст<rt>Что-то над текстом</rt>
+			</ruby>
+		<br/>
+		</details>
+		
+		<!-- Ссылки-->
+		<center><big><a href = "http://chaika-murom.ru/">Перейти на сайт ресторана Чайка в г. Муром - center & a с аттрибутом href = "ссылка"</center></a></big>
+		
+		<center><img src="C:\Users\Тимофей\Pictures\Photoshop\PixelBtnPlay.png" alt = "Play" width = "120" title = "Test image"></center>
+		
+		<center><p><a href="https://vk.com/id173997139" target = "_blank" title="Нажмите чтобы открыть"><img class="alignnone wp-image-267 size-full" src="http://chaika-murom.ru/wp-content/uploads/2016/08/vk.png" alt="vk" /></a></p></center>
+		<p><a href = "https://vk.com/rest_chaika" target = "_blank"><img src="C:\Users\Тимофей\Pictures\Photoshop\Box.png" alt="box (альтернативный текст)" width="100" height="100"></p></a>
+
+		<h1 title = "Заголовок номер 1">Заголовок - h1</h1>
+		<h2>Заголовок - h2</h2>
+		<h3>Заголовок - h3</h3>
+		<h4>Заголовок - h4</h4>
+		<h5>Заголовок - h5</h5>
+		<h6>Заголовок - h6</h6>
+		<hr /> <!-- Горизонтальная линия-->
+		
+		<input type="checkbox">
+		<p><huge>Абзац - p</huge></p>
+		
+		<p align="right">Абзац справа - аттрибут align="right"</p>
+		<p align="center">Абзац в центре - p и аттрибут align="center"</p>
+		<p><center>Текст в центре - center</center></p>
+		<!-- Комментарий... -->
+		<p><strong>Жирный - strong</strong></p>
+		<p><em>Курсив - em</em></p>
+		<p><strike>Перечеркнутый текст - strike</strike></p>
+		<p><u>Подчеркнутый текст - u</u></p>
+		
+		<center><p><abbr title="Hyper Text Mark-up Language">Аббревиатура HTML</abbr><p></center>
+		<address>Этот текст адресс или контакты для поискового робота - address</address>
+		<p><strong><em><u><strike>Пробный</strike></strong> текст</u></em></p>
+		
+		<small><p>Маленький текст - small</p></small>
+		<big><p>Большой текст - big</p></big>
+
+		<pre>
+	Этот  
+	Текст
+	Переносится                        и учитываются все пробелы
+		</pre>
+		
+		<blockquote cite="http://google.com"><p>Цитата ------------------------------------------------------------------
+	----------------------------------------------- Цитата </p></blockquote>
+
+		<br /> <!-- Пустая строчка (с новой строчки)-->
+	</article>
+	
+	<footer>
+	Подвал сайта
+	</footer>
+</body>
+</html>
